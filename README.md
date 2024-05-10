@@ -31,15 +31,15 @@ Replicated the same business questions' analysis and visualization through Power
 and interpretation. Demonstrated proficiency in data analysis, SQL querying, and data visualization techniques.
 
 ## Repository Structure
-database_design/: Contains the logical model of the superstore database in Crow's Foot notation using Visio and SQL Server diagrams.
-data_ingestion/: Includes Transact-SQL scripts for ingesting datainto the SQL Server database.
-power_bi/: Houses Power BI files showcasing dashboards and visualizations created for business analysis.
-sql_queries/: Provides Transact-SQL scripts for executing business queries directly on the SQL Server database.
+database_design: Contains the logical model of the superstore database in Crow's Foot notation using Visio and SQL Server diagrams.
+data_ingestion: Includes Transact-SQL scripts for ingesting datainto the SQL Server database.
+power_bi: Houses Power BI files showcasing dashboards and visualizations created for business analysis.
+sql_queries: Provides Transact-SQL scripts for executing business queries directly on the SQL Server database.
 
 ## To explore the project:
 
 Clone this repository to your local machine.
-Navigate to the respective directories (database_design/, data_ingestion/, power_bi/, sql_queries/) to access the relevant files.
+Navigate to the respective file (database_design, data_ingestion, power_bi, sql_queries) to access the relevant files.
 
 ## Conclusion:
 The Superstore Database Project demonstrates the proficiency in relational database design, SQL ingestion, and data visualization, 
