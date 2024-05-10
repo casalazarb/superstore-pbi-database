@@ -10,7 +10,7 @@ ingesting data from Excel spreadsheets, and creating insightful visualizations f
 # Project Overview
 
 ## Database Design
-Utilized industry-standard practices to design a relational database schema for the superstore.
+Used industry-standard practices to design a relational database schema for the superstore.
 Employed normalization techniques to ensure data integrity, eliminate redundancy, and optimize query performance.
 The logical model of the database is represented in Crow's Foot notation using Visio and SQL Server diagrams, providing a comprehensive understanding of the 
 database structure.
@@ -30,16 +30,18 @@ Answered business questions for management by executing Transact-SQL queries dir
 Replicated the same business questions' analysis and visualization through Power BI, offering multiple avenues for data exploration 
 and interpretation. Demonstrated proficiency in data analysis, SQL querying, and data visualization techniques.
 
-## Repository Structure
-database_design: Contains the logical model of the superstore database in Crow's Foot notation using Visio and SQL Server diagrams.
-data_ingestion: Includes Transact-SQL scripts for ingesting datainto the SQL Server database.
-power_bi: Houses Power BI files showcasing dashboards and visualizations created for business analysis.
-sql_queries: Provides Transact-SQL scripts for executing business queries directly on the SQL Server database.
+## Repository Files
+**superstore_pbi.xlsx:** This file contains all the data in the database, each sheet corresponds to a table. This file is easy to import to Power BI.
 
-## To explore the project:
+**superstore_pbi_diagram.png, superstore_pbi_logical_model.png, superstore_pbi_model_view.png:** This image files contain the logical model in Visio,
+SQL Server, and Power BI
 
-Clone this repository to your local machine.
-Navigate to the respective file (database_design, data_ingestion, power_bi, sql_queries) to access the relevant files.
+**script_superstore_pbi.sql:** This file allows data ingestion, includes the Transact-SQL code for ingesting data into the SQL Server database.
+
+**sql_business_questions.sql:** Provides Transact-SQL code for executing business queries on the SQL Server database.
+
+**pbi_dashboard_1.png, pbi_dashboard_2.png:** These files showcase images of Power BI dashboards and visualizations created for business analysis.
+These dashboards address the same questions as those answered by the SQL files mentioned above.
 
 ## Conclusion:
 The Superstore Database Project demonstrates the proficiency in relational database design, SQL ingestion, and data visualization, 
